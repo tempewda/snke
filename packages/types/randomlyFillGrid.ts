@@ -9,9 +9,7 @@ const defaultRand = (a: number, b: number) =>
   Math.floor(Math.random() * (b - a + 1)) + a;
 
 /*
- * defaultRand generates a random integer between a and b (inclusive). 
- * It uses the Math.random() function to generate a random number between 0 and 1, 
- * multiplies it by the range (b - a + 1), and adds a to ensure the result is within the desired range. 
+ * randomly populate a grid with colors and empty cells
  */
 export const randomlyFillGrid = (
   grid: Grid,
